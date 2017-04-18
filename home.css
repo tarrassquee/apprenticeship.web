@@ -1,0 +1,174 @@
+	body {
+		font-family: "Hans Kendrick 3";
+	
+		background-color: #D9EDF7;
+	}
+
+
+
+
+	
+ 	.brand {
+		margin-right:210px;
+		
+		}
+	.thumbnail {
+	box-shadow: 0 0 7px #888;
+		width:290px;
+		padding:0px;
+		border:0px;
+		margin: 0px;
+		
+		}
+		a {
+		color:black;
+		}
+	.home {
+	box-shadow: 0 0 7px #888;
+		max-width: 100%;
+		width:615px;
+		height:509px;
+		}
+	.row {
+		padding-top:25px;
+		padding-left:100px;
+		padding-right:100px;
+		padding-bottom:25px;
+
+		}
+	.logo {
+		font-weight:bold;
+		font-size:40px;
+		background-color:#62BCE6;
+		margin:0px;
+		line-height: 2px;
+		
+		}
+	.logo a {
+		font-weight:bold;
+		font-size:40px;
+		text-decoration:none;
+		color:inherit;
+		}
+		
+	.logo span {
+		
+		font-size:10px;
+		
+		}
+		
+	.row2 {
+
+	padding-bottom:25px;
+	}
+	.carousel-caption{
+		top:340px;
+		}
+	.caption {
+		padding:16px;
+		}
+		
+	.caption a {
+	text-decoration: none;
+    color:black;
+		}
+		
+	
+@media only screen and (max-width:768px)
+{
+	.carousel-caption{
+		top:200px;
+		}
+	.brand {
+		
+		margin-right: 450px;
+		
+		}
+	.row {
+	padding-top:25px;
+	padding-left:100px;
+	padding-right:100px;
+
+	}
+	.row2 {
+
+	padding-bottom:25px;
+	}
+	.home {
+	max-width: 100%;
+	width:520px;
+	height:370px;
+	}
+	.thumbnail {
+	
+	width: 520px;
+	
+	}
+	
+	}
+	
+	@media only screen and (max-width: 480px) {
+    .home {
+	
+
+	height:210px;
+	}
+	.thumbnail {
+	
+	width: 300px;
+	
+	}
+	.row {
+	padding-top:25px;
+	padding-left:50px;
+	padding-right:45px;
+
+	}
+	.brand {
+		
+		margin-right: 232px;
+		
+		}
+	
+ 
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+	@media only screen and (max-width: 375px) {
+    
+	.thumbnail {
+	
+	width: 250px;
+	
+	}
+	.row {
+	padding-top:25px;
+	padding-left:50px;
+	padding-right:45px;
+
+	}
+	.brand {
+		
+		margin-right: 127px;
+		
+		}
+	}
+	
+	@media only screen and (max-width: 320px) {
+    
+	.row1 {
+    padding-left: 0px;
+    padding-right: 0px;
+		}
+	.thumbnail {
+	width: 290px;
+		}
+	.row2 {
+    padding-left: 0px;
+    padding-right: 0px;
+		}
+	}
