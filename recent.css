@@ -1,0 +1,23 @@
+.btn {
+	position:relative;
+	margin-left:425px;
+	margin-right:425px;
+	font-family:'Arial';
+	font-weight:bold;
+	border-bottom:3px solid #4db3e3;
+	border-radius:0px;
+	padding:0 0 6px 0;
+	color:#435762;
+	margin-bottom:30px;
+ 
+	}
+	.in.collapse+a.btn.showdetails:before
+{
+    content:'';
+	
+}
+.collapse+a.btn.showdetails:before
+{
+    content:'SHOW ME MORE';
+	
+}
