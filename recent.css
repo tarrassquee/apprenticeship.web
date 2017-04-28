@@ -1,7 +1,5 @@
 .btn {
 	position:relative;
-	margin-left:425px;
-	margin-right:425px;
 	font-family:'Arial';
 	font-weight:bold;
 	border-bottom:3px solid #4db3e3;
@@ -9,6 +7,7 @@
 	padding:0 0 6px 0;
 	color:#435762;
 	margin-bottom:30px;
+	left:425px;
  
 	}
 	.in.collapse+a.btn.showdetails:before
@@ -21,3 +20,60 @@
     content:'SHOW ME MORE';
 	
 }
+
+@media only screen and (max-width:1024px)
+{
+	.btn{
+	position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+	left:350px;
+		}
+}
+
+
+@media only screen and (max-width:768px)
+{
+	.btn{
+	position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+	left:225px;
+		}
+}
+
+@media only screen and (max-width: 425px) {
+
+	.btn  {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 115px;
+		}
+ 
+}
+
+@media only screen and (max-width: 375px) {
+    
+	.btn  {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 83px;
+		}
+	}
+
+@media only screen and (max-width: 320px) {
+    
+	
+	.btn  {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 50px;
+		}
+	}
+	
+	
+	
+	
