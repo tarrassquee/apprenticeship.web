@@ -15,12 +15,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
- <style type="text/css">	
+ <style type="text/css">
  </style>
 
  <link rel="stylesheet" href="navigation-basic.css">
  <link rel="stylesheet" href="home.css">
  <link rel="stylesheet" href="post.css">
+ <link rel="stylesheet" href="about.css">
  <link rel="stylesheet" href="slicknav/slicknav.min.css">
 
  
@@ -40,37 +41,21 @@
 		<a href="about.html" class="selected">About</a>
 	</nav>
 	
-	<div class="container" style="height: 775px;">
-		<div class="row row1" style="padding-top:100px;padding-bottom:100px">
-		<p style="    
-		position: relative;
-		top: -55px;
-		left: -80px;
-		margin-bottom: 0px;
-		font-weight: bold;
-		font-size: 30px;">About Writer</p>
-<nav class="navbar navbar-default" role="navigation" style="
-	height: 500px;
-    width: 30%;
-    position: relative;
-    left: -100px;
-    top: -30px;
-    margin-bottom: 0px;
-    border: 0px;
-    background-color: white;">
+	<div class="container">
+		<div class="row row1">
+		<div class="writer">
+		<p>About Writer</p>
+		</div>
+<nav class="navbar navbar-default" role="navigation" style="">
 
     <ul class="nav nav-stacked">
-      <li class="selected" style="padding-bottom: 20px;"><a href="about.html" style="color: inherit; border-radius: 4px;">Loren Ipsum <img alt="Brand" src="c.jpg" class="img-circle img-thumbnail brand" width="50px" style="margin-right:0px; position: absolute; right:10px;"></a></li>
-      <li style="padding-bottom: 20px; "><a href="about2.html" style="color: inherit; background-color:#D9EDF7; border-radius: 4px;">Loren Ipsum <img alt="Brand" src="c.jpg" class="img-circle img-thumbnail brand" width="50px" style="margin-right:0px; position: absolute; right:10px;"></a></li>
+      <li class="notselected"><a class="namenotselected" href="about.html">Loren Ipsum <img alt="Brand" src="c.jpg" class="img-circle img-thumbnail brand" width="50px" style="margin-right:0px; position: absolute; right:10px;"></a></li>
+      <li class="selected"><a class="nameselected" href="about2.html">Loren Ipsum <img alt="Brand" src="c.jpg" class="img-circle img-thumbnail brand" width="50px" style="margin-right:0px; position: absolute; right:10px;"></a></li>
     </ul>
     </nav>
 	
-	<div style=" position: relative;
-    text-align: justify;
-    top: -550px;
-    left: 225px;
-	margin-right:160px;">
-	<img src="c.jpg" style="float:left;margin-right:36px; border-radius: 4px;">
+	<div class="about">
+	<img src="c.jpg" class="img">
 	<h3>
 	Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
 	<br>
@@ -90,13 +75,11 @@
             <div class="footer-left">
                 <h3 style="margin-top:0px;">Company<span>logo</span></h3>
                 <p class="footer-links">
-                    <a href="#">Home</a>
+                    <a href=".index.html">Home</a>
                     -
-                    <a href="#">Recent</a>
+                    <a href="recent.html">Recent</a>
                     -
-                    <a href="#">Contact</a>
-                    -
-                    <a href="#">About</a>
+                    <a href="about.html">About</a>
                     
                 </p>
                 <p class="footer-company-name">Company Name &copy; 2017</p>
